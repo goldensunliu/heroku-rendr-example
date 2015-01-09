@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "grunt compile && mocha --ui bdd --reporter spec ./test/app --recursive && karma start test/karma.config.js --single-run",
-    "start": "node index.js",
+    "start": "grunt server",
     "postinstall": "test -f ../../package.json && npm install ../../ || echo",
     "postupdate": "test -f ../../package.json && npm install ../../ || echo"
   },
