@@ -24,7 +24,7 @@ Add this buildpack to your current app:
 
     $ git push heroku master
 
-## Running the example
+## Running the example on server
 
 First, make sure to have Node >= 0.8.0 [installed on your system](http://nodejs.org/). Also, make sure to have `grunt-cli` installed globally.
 
