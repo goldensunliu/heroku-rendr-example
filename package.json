@@ -20,6 +20,7 @@
     "chai": "~1.8.1",
     "grunt": "~0.4.1",
     "grunt-browserify": "~1.2.9",
+    "grunt-cli": "^0.1.13",
     "grunt-contrib-handlebars": "~0.5.11",
     "grunt-contrib-stylus": "~0.5.0",
     "grunt-contrib-watch": "~0.3.1",
