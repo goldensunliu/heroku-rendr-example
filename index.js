@@ -35,7 +35,7 @@ var server = rendr.createServer({
 });
 console.log("SITIAN!!!!!");
 console.log(process.cwd());
-console.log(require('fs').readdirSync('/app'))
+console.log(require('fs').readdirSync('/app/app'))
 
 /**
   * To mount Rendr, which owns its own Express instance for better encapsulation,
