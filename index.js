@@ -34,6 +34,7 @@ var server = rendr.createServer({
   dataAdapterConfig: dataAdapterConfig
 });
 console.log("SITIAN!!!!!");
+console.log(process.cwd());
 console.log(require('fs').readdirSync('/app'))
 
 /**
