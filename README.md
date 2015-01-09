@@ -2,8 +2,24 @@
 ## GitHub Browser
 
 The purpose of this little app is to demonstrate one way of using Rendr to build a web app that runs on both the client and the server.
+The app can be run on your localhost or deployed onto a [heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs) server to experience over the real web with a few commands.
 
 ![Screenshot](http://cl.ly/image/062d3S2D1Y38/Screen%20Shot%202013-04-09%20at%203.14.31%20PM.png)
+
+## Depoly on heroku
+
+The application's build process uses grunt tasks which build resources you don't need to commit to keep your app repository clean and smaller.
+
+### Enable Grunt on heroku
+
+Create a new app with the grunt buildpack:
+    $ heroku create myapp --buildpack https://github.com/mbuchetics/heroku-buildpack-nodejs-grunt.git
+Add this buildpack to your current app:
+    $ heroku config:add BUILDPACK_URL=https://github.com/mbuchetics/heroku-buildpack-nodejs-grunt.git
+
+### Push to heroku
+
+    $ git push heroku master
 
 ## Running the example
 
