@@ -2,6 +2,7 @@
 ## GitHub Browser
 
 The purpose of this little app is to demonstrate one way of using Rendr to build a web app that runs on both the client and the server. It uses code from [rendr-examples](https://github.com/rendrjs/rendr-examples/tree/master/06_appview).
+
 The app can be run on your localhost or deployed onto a [heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs) server to experience over the real web with a few commands.
 
 ![Screenshot](http://cl.ly/image/062d3S2D1Y38/Screen%20Shot%202013-04-09%20at%203.14.31%20PM.png)
