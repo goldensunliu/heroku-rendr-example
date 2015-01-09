@@ -31,9 +31,9 @@ var dataAdapterConfig = {
  * Initialize our Rendr server.
  */
 var server = rendr.createServer({
-  dataAdapterConfig: dataAdapterConfig,
-  entryPath: process.cwd() + '/'
+  dataAdapterConfig: dataAdapterConfig
 });
+console.log(require('fs').readdirSync('/app'))
 
 /**
   * To mount Rendr, which owns its own Express instance for better encapsulation,
