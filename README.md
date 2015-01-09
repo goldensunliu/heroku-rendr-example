@@ -13,8 +13,11 @@ The application's build process uses grunt tasks which build resources you don't
 ### Enable Grunt on heroku
 
 Create a new app with the grunt buildpack:
+
     $ heroku create myapp --buildpack https://github.com/mbuchetics/heroku-buildpack-nodejs-grunt.git
+
 Add this buildpack to your current app:
+
     $ heroku config:add BUILDPACK_URL=https://github.com/mbuchetics/heroku-buildpack-nodejs-grunt.git
 
 ### Push to heroku
