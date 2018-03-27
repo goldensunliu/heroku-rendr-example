@@ -10,24 +10,24 @@
     "postupdate": "test -f ../../package.json && npm install ../../ || echo"
   },
   "dependencies": {
-    "express": "~3",
-    "underscore": "~1.5.2",
-    "async": "~0.1.22",
-    "rendr-handlebars": "0.2.0",
-    "rendr": "0.5.0"
+    "express": "~4.16.3",
+    "underscore": "~1.8.3",
+    "async": "~2.6.0",
+    "rendr-handlebars": "2.0.2",
+    "rendr": "1.1.4"
   },
   "devDependencies": {
-    "chai": "~1.8.1",
-    "grunt": "~0.4.1",
-    "grunt-browserify": "~1.2.9",
-    "grunt-contrib-handlebars": "~0.5.11",
-    "grunt-contrib-stylus": "~0.5.0",
-    "grunt-contrib-watch": "~0.3.1",
-    "karma": "^0.12.31",
-    "karma-chrome-launcher": "~0.1.0",
-    "karma-mocha": "~0.1.0",
-    "mocha": "~1.9.0",
-    "nodemon": "~0.7.6"
+    "chai": "~4.1.2",
+    "grunt": "~1.0.2",
+    "grunt-browserify": "~5.2.0",
+    "grunt-contrib-handlebars": "~1.0.0",
+    "grunt-contrib-stylus": "~1.2.0",
+    "grunt-contrib-watch": "~1.0.0",
+    "karma": "^2.0.0",
+    "karma-chrome-launcher": "~2.2.0",
+    "karma-mocha": "~1.3.0",
+    "mocha": "~5.0.5",
+    "nodemon": "~1.17.2"
   },
   "engines": {
     "node": ">=0.8"
