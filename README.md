@@ -1,6 +1,8 @@
 # Rendr App Template
 ## GitHub Browser
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/goldensunliu/heroku-rendr-example.svg)](https://greenkeeper.io/)
+
 The purpose of this little app is to demonstrate one way of using Rendr to build a web app that runs on both the client and the server. It uses code from [rendr-examples](https://github.com/rendrjs/rendr-examples/tree/master/06_appview).
 
 The app can be run on your localhost or deployed onto a [heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs) server to experience over the real web with a few commands.
